@@ -15,10 +15,6 @@ jobs:
     steps:
       - name: Output event data
         run: echo "Hi Build"
-      - name: List files in ss-xml directory
-        shell: pwsh
-        run: |
-          Get-ChildItem -Path ss-xml
       - name: copy file
         uses: actions/upload-artifact@v3
         with:
