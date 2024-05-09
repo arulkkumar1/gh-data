@@ -19,7 +19,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: "ss-xml"
+          path: "ss-xml/*"
   deploy:
     needs: build
     runs-on: windows-latest
