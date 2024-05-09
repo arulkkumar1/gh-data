@@ -20,7 +20,7 @@ jobs:
         with:
           name: my-artifact
           path: | 
-            /ss-xml
+            ${GITHUB_WORKSPACE}/ss-xml/*
   deploy:
     needs: build
     runs-on: windows-latest
