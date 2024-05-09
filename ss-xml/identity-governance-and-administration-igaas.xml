@@ -1,0 +1,26 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE build SYSTEM "build.dtd">
+<build>
+	<product docset="microfocus" site="wwwtest" product_name="arcsight/arcsight-saas" submitter_email="karulkumar@novell.com">
+
+			
+		<guide source="//depot/techcom/FlareProjects/ArcSight_SaaS/SaaSReleaseNotes/in_process/Output/arcsight-saas-release-notes-24.1/index.html"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-saas/arcsight-saas-release-notes-24.1/index.html"
+			html_bundle="y"
+			comment="21671113"/>
+		<guide source="//depot/techcom/FlareProjects/ArcSight_SaaS/SaaSReleaseNotes/in_process/Output/arcsight-saas-release-notes-24.1-PDF/arcsight-saas-release-notes-24.1.pdf"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-saas/pdfdoc/arcsight-saas-release-notes-24.1/arcsight-saas-release-notes-24.1.pdf"
+			comment="21671113"/>
+			
+		<guide source="//depot/techcom/FlareProjects/ArcSight_SaaS/SaaSQuickStartGuide/in_process/Output/arcsight-saas-quick-start-24.1/index.html"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-saas/arcsight-saas-quick-start-24.1/index.html"
+			html_bundle="y"
+			comment="21671113"/>
+		<guide source="//depot/techcom/FlareProjects/ArcSight_SaaS/SaaSQuickStartGuide/in_process/Output/arcsight-saas-quick-start-24.1-PDF/arcsight-saas-quick-start-24.1.pdf"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-saas/pdfdoc/arcsight-saas-quick-start-24.1/arcsight-saas-quick-start-24.1.pdf"
+			comment="21671113"/>
+		
+</product>	
+</build>
+
+

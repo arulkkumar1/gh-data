@@ -1,0 +1,29 @@
+name: deploy website
+on:
+  push:
+    branches: 
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event data
+        run: echo "Hi Test"
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event data
+        run: echo "Hi Build"
+      - name: copy file
+        uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact
+          path: ss-xml
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output event data
+        run: echo "Hi Deploy"

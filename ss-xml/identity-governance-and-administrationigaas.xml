@@ -1,0 +1,13 @@
+<?xml version='1.0'?>
+<!DOCTYPE build SYSTEM "build.dtd">
+<build>
+	<product docset="microfocus" site="wwwtest" product_name="identity-governance-and-administration/igaas" submitter_email="karulkumar@novell.com">
+		
+		
+		<guide img="n" pdf="y">https://svn.provo.novell.com/svn/documentation/identity-governance/saas/4.2/frame/releasenotes-dec-2023/html/releasenotes-dec-2023.html</guide>
+
+		<comment>bug 22548816</comment>
+	</product>
+</build>
+
+

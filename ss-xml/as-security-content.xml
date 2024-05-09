@@ -1,0 +1,18 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE build SYSTEM "build.dtd">
+<build>
+	<product docset="microfocus" site="wwwtest" product_name="arcsight/security-content" submitter_email="karulkumar@novell.com">
+	
+
+		<guide source="//depot/techcom/FlareProjects/ESM_Default_Content/ESM4.3/Output/index/index.html"
+		destination="https://wwwtest.microfocus.com/documentation/arcsight/security-content/ESM_4.3_RNs/index.html"
+			html_bundle="y"
+			comment="973580388"/>
+		
+		<guide source="//depot/techcom/FlareProjects/ESM_Default_Content/ESM4.3/Output/4.3RNs/ESM_4.3_RNs.pdf"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/security-content/pdfdoc/ESM_4.3_RNs/ESM_4.3_RNs.pdf"
+			comment="973580388"/>
+
+</product>	
+</build>
+

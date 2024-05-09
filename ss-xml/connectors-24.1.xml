@@ -1,0 +1,20 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE build SYSTEM "build.dtd">
+<build>
+	<product docset="microfocus" site="wwwtest" product_name="arcsight/arcsight-smartconnectors-24.1" submitter_email="karulkumar@novell.com">
+	
+
+			
+		<guide source="//depot/techcom/FlareProjects/Connectors/in_process/Opentext-NetworkDetentionResponse/Output/Output/_MFc_HTML5/index.html"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-smartconnectors-24.1/Opentext-NetworkDetentionResponse/index.html"
+			html_bundle="y"
+			comment="21972174"
+			toc_update="y"/>
+		<guide source="//depot/techcom/FlareProjects/Connectors/in_process/Opentext-NetworkDetentionResponse/Output/Output/_MFc_PDF/Opentext-NetworkDetentionResponse.pdf"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-smartconnectors-24.1/pdfdoc/Opentext-NetworkDetentionResponse/Opentext-NetworkDetentionResponse.pdf"
+			comment="21972174"/>
+			
+</product>
+
+</build>
+

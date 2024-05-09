@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE build SYSTEM "build.dtd">
+<build>
+	<product docset="netiq" site="wwwtest" product_name="edirectory-92" submitter_email="karulkumar@novell.com">
+		
+		
+		<guide img="y" pdf="y">https://svn.provo.novell.com/svn/documentation/edirectory/edir92/frame/edir-security/xml/edir-security.xml</guide>
+		<guide img="y" pdf="y">https://svn.provo.novell.com/svn/documentation/edirectory/edir92/frame/netiq-nwec/xml/netiq-nwec.xml</guide>
+	
+	
+	</product>
+</build>

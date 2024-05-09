@@ -1,0 +1,20 @@
+﻿<?xml version='1.0'?>
+<!DOCTYPE build SYSTEM "build.dtd">
+<build>
+	<product docset="microfocus" site="wwwtest" product_name="arcsight/arcsight-soar-3.10" submitter_email="karulkumar@novell.com">
+	
+			
+		<guide source="//depot/techcom/FlareProjects/SOAR-3.9/SOAR-IntegrationGuide/Output/Output/_MFc_3.10_HTML5/index.html"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-soar-3.10/arcsight-soar-integration-guide/index.html"
+			html_bundle="y"
+			comment="22330652"/>
+		<guide source="//depot/techcom/FlareProjects/SOAR-3.9/SOAR-IntegrationGuide/Output/Output/_MFc_3.10_PDF/arcsight-soar-integration-guide.pdf"
+			destination="https://wwwtest.microfocus.com/documentation/arcsight/arcsight-soar-3.10/pdfdoc/arcsight-soar-integration-guide/arcsight-soar-integration-guide.pdf"
+			comment="22330652"/>
+		
+</product>	
+</build>
+
+
+
+
