@@ -15,6 +15,7 @@ jobs:
     steps:
       - name: Output event data
         run: echo "Hi Build"
+        run: echo %cd%
       - name: copy file
         uses: actions/upload-artifact@v3
         with:
