@@ -15,11 +15,14 @@ jobs:
     steps:
       - name: Output event data
         run: echo "Hi Build"
+      - name: List files in ss-xml directory
+        run: |
+          ls -al ss-xml
       - name: copy file
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: "ss-xml/*"
+          path: "ss-xml/*" # Include all files inside the ss-xml folder
   deploy:
     needs: build
     runs-on: windows-latest
