@@ -20,7 +20,6 @@ jobs:
         with:
           name: my-artifact
           path: ss-xml
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
