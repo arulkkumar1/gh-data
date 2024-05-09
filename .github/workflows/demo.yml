@@ -5,13 +5,13 @@ on:
       - master
 jobs:
   test:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output event data
         run: echo "Hi Test"
   build:
     needs: test
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output event data
         run: echo "Hi Build"
@@ -21,10 +21,10 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: "ss-xml/*" # Include all files inside the ss-xml folder
+          path: ss-xml
   deploy:
     needs: build
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output event data
         run: echo "Hi Deploy"
